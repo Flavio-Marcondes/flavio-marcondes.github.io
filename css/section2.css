@@ -1,0 +1,23 @@
+.section2{
+    width: 85%;
+    margin: auto;
+    text-align: center;
+    background-color: white;
+}
+
+.section2 h1{
+    padding-top: 5vh;
+}
+
+.bottomImgDiv{
+    margin-top: 5vh;
+    width: 80%;
+}
+
+.bottomImgDiv div{
+    margin: 3vh 0;
+}
+
+.bottomImgDiv img{
+    height: 10vw;
+}

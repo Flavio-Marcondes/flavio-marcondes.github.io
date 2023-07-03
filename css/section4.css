@@ -1,0 +1,42 @@
+.section4{
+    width: 85%;
+    margin: auto;
+    background-color: white;
+}
+
+.section4 div{
+    margin: 2vw 5vw;
+    padding: 2vw 0vw;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.section4 iframe{
+    width: 40vw;
+    height: 30vw;
+}
+
+.section4 h1{
+    font-size: 3vw;
+}
+
+.sideInfo{
+    flex-direction: column;
+    text-align: left;
+}
+
+.sideInfo img{
+    margin: 0vw 1vw;
+    width: 2.5vw;
+}
+
+.sideInfo h1{
+    margin: 2vw 0;
+}
+
+.sideInfo a{
+    margin: 1vw 0;
+    text-decoration: none;
+    color: rgb(23, 23, 23);
+    font-size: larger;
+}

@@ -1,0 +1,44 @@
+.section1{
+    width: 85%;
+    margin: 0vw auto 3vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.section1 img{
+    width: 47.5%;
+}
+
+.section1 h2{
+    margin: 3vw 2vw 0vw;
+    font-size: 2vw;
+}
+
+.section1 h4{
+    margin: 4vw 4vw;
+    font-size: 1.5vw;
+    font-weight: 400;
+}
+
+.sideImgDiv{
+    width: 40%;
+    padding-top: 5vw;
+}
+
+.sideImgDiv h4{
+    position: relative;
+    align-items: center;
+}
+
+.sideImgDiv h4::after{
+    content: '';
+    width: 4%;
+    display: block;
+    position:absolute;
+    height: 4px;
+    left: -2vw;
+    bottom: calc(50% - 5px);
+    background-color: var(--contrast-color);
+}
