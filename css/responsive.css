@@ -1,0 +1,177 @@
+
+/* Desktops */
+@media screen and (max-width: 1560px){
+    .section1{
+        width: 90%;
+        height: 45vw;
+    }
+
+    .section1 h2{
+        font-size: 2.3vw;
+    }
+
+    .section1 h4{
+        font-size: 1.8vw;
+    }
+
+    .section1 img{
+        width: 45vw;
+    }
+
+
+
+
+/*  */
+    .section4{
+        width: 90%;
+        height: 35vw;
+    }
+
+    .contact {
+        margin: 0vw 0vw;
+        padding: 0vw 0vw;
+        justify-content: space-between;
+    }
+
+    .section4 iframe{
+        width: 50vw;
+        height: 35vw;
+    }
+
+    .sideInfo{
+        width: 50%;
+        margin: 0vw 0vw;
+        padding: 0vw 5vw;
+        justify-content: center;
+    }
+
+    .sideInfo h1{
+        font-size: 3vw;
+    }
+
+    .sideInfo a{
+        font-size: 2vw;
+    }
+
+    .sideInfo img{
+        width: 3vw;
+    }
+}
+
+
+/* Tablets */
+@media screen and (max-width: 800px){
+
+    .section1{
+        width: 80%;
+        height: auto;
+        flex-direction: column;
+    }
+
+    .section1 img{
+        width: 60%;
+    }
+
+    .section1 h2{
+        font-size: 3.5vw;
+    }
+
+    .section1 h4{
+        font-size: 2.5vw;
+        text-align:left;
+    }
+
+    .sideImgDiv{
+        width: 90%;
+        padding-top: 2vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .sideImgDiv div{
+        width: 75%;
+        margin: 0vw 0vw 4vw 4vw;
+        justify-content: center;
+    }
+
+
+
+
+    .section4 {
+        width: 80%;
+    }
+
+    .sideInfo{
+        margin: 2vw 3vw;
+        padding: 0vw 0vw;
+    }
+
+    .sideInfo h1{
+        margin-left: 2vw;
+        font-size: 3vw;
+    }
+}
+
+/* Smartphones */
+@media screen and (max-width: 426px){
+
+    .section1{
+        width: 90%;
+        height: auto;
+        flex-direction: column;
+    }
+
+    .section1 img{
+        width: 60%;
+    }
+
+    .section1 h2{
+        font-size: 4.5vw;
+    }
+
+    .section1 h4{
+        font-size: 3.7vw;
+    }
+
+    .sideImgDiv{
+        width: 90%;
+        padding-top: 2vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .sideImgDiv div{
+        width: 75%;
+        margin: 0vw 0vw 4vw 4vw;
+    }
+
+
+
+
+    .section4 {
+        width: 90%;
+    }
+
+    .contact{
+        margin: 0vw 0vw;
+        padding: 0vw 0vw;
+    }
+
+    .sideInfo{
+        margin-top: 2vw;
+        justify-content: start;
+    }
+
+    .sideInfo h1{
+        margin-bottom: 2vw;
+        font-size: 4vw;
+    }
+
+    .sideInfo a{
+        font-size: 3vw;
+    }
+}
