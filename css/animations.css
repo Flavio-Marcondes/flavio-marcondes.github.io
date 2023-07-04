@@ -9,8 +9,12 @@
     transition: opacity 0.5s, height 2s, transform 1s;
 }*/
 
-.space1 {
+.stopAnimation{
+    opacity: 1 !important;
+    animation: none !important;
+}
 
+.space1 {
     animation: fromLeft 1s, fadeIn 0.8s;
 
     .name{
@@ -29,10 +33,12 @@
     .t4{
         animation-play-state: running;
     }
+
+    animation-fill-mode: forwards;
 }
 
 .space4 {
-    animation: fromBottom 0.6s;
+    animation: fromBottom 0.6s, fadeIn 0.1s;
 
     .contact{
         animation-play-state: running;
@@ -41,6 +47,8 @@
     .sideInfo{
         animation-play-state: running;
     }
+
+    animation-fill-mode: forwards;
 }
 
 .name{

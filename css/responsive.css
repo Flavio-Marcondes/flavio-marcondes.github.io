@@ -21,7 +21,6 @@
 
 
 
-/*  */
     .section4{
         width: 90%;
         height: 35vw;
@@ -60,7 +59,7 @@
 
 
 /* Tablets */
-@media screen and (max-width: 800px){
+@media screen and (max-width: 768px){
 
     .section1{
         width: 80%;

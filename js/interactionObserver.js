@@ -22,10 +22,5 @@ const observer = new IntersectionObserver(entries => {
   });
   
   observer.observe(document.querySelector('.section1'));
-  observer.observe(document.querySelector('.name'));
-  observer.observe(document.querySelector('.t1'));
-  observer.observe(document.querySelector('.t2'));
-  observer.observe(document.querySelector('.t3'));
-  observer.observe(document.querySelector('.t4'));
   observer.observe(document.querySelector('.section4'));
   
