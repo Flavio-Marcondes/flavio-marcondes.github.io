@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500&display=swap');
+
 * {
     border: 0;
     padding: 0;
@@ -6,12 +8,13 @@
 
 :root{
     --navlink-color: #6e6e6e;
-    --bg-color: rgba(255, 217, 0, 0.349); /*rgba(255, 217, 0, 0.349);*/
+    --bg-color: rgba(255, 217, 0, 0.259); /*rgba(255, 217, 0, 0.349);*/
     --contrast-color: #bcad5a;
 }
 
 body{
-    background-color: var(--bg-color)
+    background-color: var(--bg-color);
+    font-family: 'Raleway', sans-serif;
 }
 
 .half-blue-white{

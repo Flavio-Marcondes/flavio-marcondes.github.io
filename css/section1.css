@@ -1,10 +1,11 @@
 .section1{
     width: 85%;
-    margin: 0vw auto 3vw;
+    margin: 3vw auto 3vw;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: white;
+    opacity: 0;
 }
 
 .section1 img{
@@ -24,7 +25,6 @@
 
 .sideImgDiv{
     width: 40%;
-    padding-top: 5vw;
 }
 
 .sideImgDiv h4{

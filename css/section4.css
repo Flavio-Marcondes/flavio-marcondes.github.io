@@ -2,6 +2,7 @@
     width: 85%;
     margin: 3vw auto;
     background-color: white;
+    opacity: 0;
 }
 
 .section4 div{
@@ -28,7 +29,8 @@
 
 .sideInfo img{
     margin: 0vw 1vw;
-    width: 2.5vw;
+    width: 3vw;
+    height: 4vw;
 }
 
 .sideInfo h1{

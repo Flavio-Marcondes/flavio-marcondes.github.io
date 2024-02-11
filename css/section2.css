@@ -1,6 +1,6 @@
 .section2{
     width: 85%;
-    margin: auto;
+    margin: 3vw auto 3vw;
     text-align: center;
     background-color: white;
 }
@@ -19,5 +19,5 @@
 }
 
 .bottomImgDiv img{
-    height: 10vw;
+    height: 14vw;
 }
